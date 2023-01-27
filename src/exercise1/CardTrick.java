@@ -20,7 +20,7 @@ public class CardTrick {
         for (int i = 0; i < hand.length; i++) {
             Card card = new Card();
             //card.setValue(insert call to random number generator here)
-            card.setValue(random.nextInt(13));
+            card.setValue(random.nextInt(13) + 1);
             //card.setSuit(Card.SUITS[insert call to random number between 0-3 here])
             card.setSuit(Card.SUITS[random.nextInt(4)]);
             // Hint: You can use Random -> random.nextInt(n) to get a random number between 0 and n-1 (inclusive)
@@ -50,6 +50,7 @@ public class CardTrick {
      * A simple method to print out personal information. Follow the instructions to 
      * replace this information with your own.
      * @author Paul Bonenfant Jan 2022
+     * I'm done!
      */
     private static void printInfo() {
     
